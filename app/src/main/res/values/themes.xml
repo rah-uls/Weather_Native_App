@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeatherApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- primery -->
+         <item name="colorPrimary">#8515C1</item>
+        <item name="colorPrimaryVariant">#5B22B8</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- secondry -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">#12E4EB</item>
+        <item name="colorOnSecondary">#0E563D</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.WeatherApp" parent="Base.Theme.WeatherApp" />
+</resources>
